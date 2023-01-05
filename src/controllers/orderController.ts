@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { Response } from "express";
 import handleHttp from "../utils/errorHandler";
 import userModel from "../models/user";
 import { RequestExt } from "../interfaces/req-ext.interface";

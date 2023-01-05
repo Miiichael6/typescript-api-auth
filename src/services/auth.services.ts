@@ -1,6 +1,5 @@
 import userModel from "../models/user";
 import { IUser } from "../interfaces/user.interface";
-import bscryptjs from "bcryptjs";
 import { encrypt, verified } from "../utils/bscrypt.handle";
 import { JWTGenerator } from "../utils/jwt.handle";
 

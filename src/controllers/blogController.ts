@@ -1,16 +1,14 @@
 import { Request, Response } from "express";
 import handleHttp from "../utils/errorHandler";
 
-const getItem = (req: Request, res: Response) => {
+const getItem = (_req: Request, res: Response) => {
   try {
-
-
   } catch (error: any) {
     handleHttp(res, error);
   }
 };
 
-const getItems = (req: Request, res: Response) => {
+const getItems = (_req: Request, res: Response) => {
   try {
   } catch (error: any) {
     handleHttp(res, error);
@@ -19,16 +17,14 @@ const getItems = (req: Request, res: Response) => {
 
 const postItem = (req: Request, res: Response) => {
   const data = req.body;
-  console.log(data)
+  console.log(data);
   try {
-
-
   } catch (error: any) {
     handleHttp(res, error);
   }
 };
 
-const deleteItem = (req: Request, res: Response) => {
+const deleteItem = (_req: Request, res: Response) => {
   try {
   } catch (error: any) {
     handleHttp(res, error);
